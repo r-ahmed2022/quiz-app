@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 100px 50px 100px 50px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 550px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding-top: 30px;
+  
+}
+.start_screen {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  background-image: url("./images/background-design.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.title-text {
+  margin: 10px;
+  font-family: Karla;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.start-button {
+  width: 193px;
+  height: 52px;
+  background: #112266;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.quiz-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 550px;
+  padding:5px;
+  box-shadow:1px 1px 1px 1px gray;
+}
+.quiz-board > h5{
+  margin:3px;
+  padding:2px;
+}
+.options {
+  width: 250px;
+  height: 40px;
+  font-size: 0.6rem;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 3px 3px 15px 3px;
+  text-align: center;
+  
+}
+.colored-options {
+  width: 250px;
+  height: 40px;
+  font-size: 0.6rem;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 3px 3px 15px 3px;
+  text-align: center;
+  
+}
+
+.option-card {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  font-size: 0.6rem;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.options-card > h4 {
+  margin: 0px;
+  padding: 0px;
+}
+.check-answers {
+  width: 120px;
+  height: 60px;
+  background: #4d5b9e;
+  border-radius: 10px;
+  color: white;
+  font-size: 10.24px;
+  margin-left: 10px;
+}
+.score-card {
+  margin-right: 10px;
+}
